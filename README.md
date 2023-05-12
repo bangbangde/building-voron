@@ -6,8 +6,5 @@ From Parts to Printer
 本项目记录组装过程，目录结构：
 
 - `/notes/base`：相关资料及笔记
-
-- `/notes/assets`：物料清单
-
 - `/notes/build`： 建造过程相关文档
 
