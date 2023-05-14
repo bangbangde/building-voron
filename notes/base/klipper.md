@@ -15,6 +15,21 @@ Voron 文档中还给出另外 [2 个管理系统](https://docs.vorondesign.com/
 - Mainsail
 - Fluidd
 
+虽然我已经装好了 OctoPi OS，但还是决定切到 Mainsail OS。
+
+Maimsail 文档比较简单，没有 OctoPi 贴心，这里贴一下系统镜像写入后的操作：
+
+```
+Log into your Pi via SSH (it is located at octopi.local if your computer supports bonjour or the IP address assigned by your router), default username is "pi", default password is "raspberry". Run sudo raspi-config. Once that is open:
+
+Change the password via "Change User Password"
+Optionally: Change the configured timezone via "Localization Options" > "Timezone".
+Optionally: Change the hostname via "Network Options" > "Hostname". Your OctoPi instance will then no longer be reachable under octopi.local but rather the hostname you chose postfixed with .local, so keep that in mind.
+You can navigate in the menus using the arrow keys and Enter. To switch to selecting the buttons at the bottom use Tab.
+
+You do not need to expand the filesystem, current versions of OctoPi do this automatically.
+```
+
 
 ## 关于固件
 
